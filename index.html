@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="1">hello devloper</h1>
+    <h2 class="2">hello devloper</h2>
+    <h3>hello devloper</h3>
+    <input id="4" type="text" value="email">
+
+    <div class="5">geubfo</div>
+</body>
+</html>
+
+<script>
+
+
+    var h1 = document.getElementById("1");
+    var h2 = document.getElementsByClassName("2");
+    var h3 = document.getElementsByTagName("h3");
+    var input = document.getElementById("4");
+    h1.style.background = "#fff000";
+    h1.style.fontSize = "50px";
+    h1.style.position = "relative";
+
+    h1.innerHTML = 'slm';
+    // input.value = "7"
+
+    input.setAttribute("value", "hello");
+
+
+    var div = document.getElementsByClassName("5");
+    var p = document.CreateElement("p");
+    p.innerHTML = "fobar";
+    div.style.background = "#fff";
+    
+</script>
