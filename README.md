@@ -1,1 +1,3 @@
-# hello
+# EXERCICE IN JS
+
+
