@@ -75,3 +75,18 @@ function phone(){
     }
     
 }
+
+// EXERCICE 2
+// input [1,4,7,9,2,5,3,6,8]
+// output [1,2,3,4,5,6,7,8,9]
+function tri(){
+    arr = [1,4,7,9,2,5,3,6,8]
+    for(var i=0 ; i <arr.length ; i++){
+        for(var j=0 ; j < arr.length ; j++){
+            if(arr[j] > arr[j+1]){
+                [ arr[j], arr[j+1] ] = [ arr[j+1], arr[j] ]
+            }
+        }  
+    }
+    return arr;
+}
