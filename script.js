@@ -92,21 +92,3 @@ function tri(){
 }
 
 
-// EXERCICE 3
-function isArmstrong(number) {
-    var str = number.toString();
-    var len = str.length;
-    var b = 0;
-
-    for (var i=0; i < len; i++){
-        var HEY = parseInt(str[i]);
-        b += Math.pow(HEY , len);
-    }
-
-    if(number == b){
-        return true;
-    }else return false;
-}
-
-console.log(isArmstrong(153)); // true
-console.log(isArmstrong(1583)); //false
