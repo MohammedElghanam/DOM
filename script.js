@@ -130,9 +130,21 @@ function Odd_Or_Even(a){
     
     if( n === 0 ){
         return a + ": number zawji"
-    }else return a + ": number fardi"
-    
-    
+    }else return a + ": number fardi"    
 }
-
 console.log(Odd_Or_Even(7))
+
+// EXERCICE5
+// Factorial Calculation: Calculate the factorial of a number using a loop.
+var factorial = (n) => {
+    var b = 1;
+    for( var i=n ; i > 0; i-- ){
+       b *= i
+       //  console.log(b)
+    }
+    return b;
+}
+console.log(factorial(5))
+
+
+
