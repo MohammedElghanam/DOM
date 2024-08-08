@@ -1,3 +1,13 @@
+var array1 = [1, 2, 3];
+var array2 = [4, 5, 6];
+var a = "1";
+var b = "2";
+var cont = a.concat(b);
+var int = parseInt(cont);
+int+=1;
+// console.log(int)
+
+
 // EXERCICE 1
 // METHOD1
 
@@ -110,3 +120,19 @@ function isArmstrong(number) {
 
 console.log(isArmstrong(153)); // true
 console.log(isArmstrong(1583)); //false
+
+
+
+// EXERCICE4
+// Odd or Even: Write a program that checks if a number is odd or even.
+function Odd_Or_Even(a){
+    var n = a % 2;
+    
+    if( n === 0 ){
+        return a + ": number zawji"
+    }else return a + ": number fardi"
+    
+    
+}
+
+console.log(Odd_Or_Even(7))
